@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    width: 500px;
+    height: 600px;
+    border: 5px solid indigo;
+    background-color: antiquewhite;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.item{
+    border: 5px solid blue;
+    min-width: 300px;
+    min-height: 100px;
+    background-color: red;
+/*        box-shadow: 15px 5px 33px solid;
+*/
+}
+
+.item.i2{
+    background-color: gold;
+}
+.item.i3{
+    flex-basis:70% ;
+    border: 2px solid yellow;
+    min-width: 300px;
+    min-height: 200px;
+    background-color: lightblue;
+}

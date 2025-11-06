@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 10px;
+}
+h1{
+    font-family: sans-serif;
+    color: rgb(211, 107, 38);
+    text-shadow: 1px 2px 1px black;
+    margin: 30px 0px 30px 0px;
+
+}
+div{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+h3{ 
+    font-size: 1.25rem;
+    margin-bottom: px;
+
+}
+ul{
+    
+     list-style: none;  
+    background-color: rgb(113, 175, 20);
+       flex: 1;
+       flex-basis: 160px;
+}
+.ul.A, ul.B, ul.C {
+    width: fit-content;
+    flex: 1;
+     /* all grow equally */
+}
+
+/* make ul.C grow bigger */
+ul.C {
+    flex: 2;
+     /* grows 3× more than others */
+}

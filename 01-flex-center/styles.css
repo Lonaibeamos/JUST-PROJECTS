@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 120px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 2px 2px 2px bl;
+    margin: 10px;
+    border: 5px solid rgb(3, 3, 53);
+    padding: 150px;
+    background-color: rgb(20, 108, 209);
+}
+.item{
+    text-align: center;
+    font-weight: bold;
+    max-width: 80px;
+    max-height: 85px;
+    border: 5px solid maroon;
+    background-color: palevioletred;
+}
+.container1{
+    display: flex;
+    padding: 160px;
+    justify-content: center;
+}
